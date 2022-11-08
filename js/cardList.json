@@ -1,2 +1,1913 @@
-[{"id": 1, "name": "Omnimon I", "color": "red", "material": 18, "cost": 0}, {"id": 2, "name": "WarGreymon", "color": "red", "material": 18, "cost": 35},
-{"id": 3, "name": "Omnimon II", "color": "blue", "material": 18, "cost": 0}]
+[
+  {
+    "id": 0,
+    "color": "Red",
+    "name": "Imperialdramon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 1,
+    "color": "Red",
+    "name": "Omnimon I",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 2,
+    "color": "Red",
+    "name": "WarGreymon",
+    "materialValue": 18,
+    "costValue": 35
+  },
+  {
+    "id": 3,
+    "color": "Red",
+    "name": "Pheonixmon",
+    "materialValue": 17,
+    "costValue": 34
+  },
+  {
+    "id": 4,
+    "color": "Red",
+    "name": "Paildramon",
+    "materialValue": 17,
+    "costValue": 33
+  },
+  {
+    "id": 5,
+    "color": "Red",
+    "name": "Gigidramon",
+    "materialValue": 16,
+    "costValue": 32
+  },
+  {
+    "id": 6,
+    "color": "Red",
+    "name": "RealMetalGreymon",
+    "materialValue": 16,
+    "costValue": 31
+  },
+  {
+    "id": 7,
+    "color": "Red",
+    "name": "Garudamon",
+    "materialValue": 15,
+    "costValue": 30
+  },
+  {
+    "id": 8,
+    "color": "Red",
+    "name": "MasterTyrannomon",
+    "materialValue": 15,
+    "costValue": 29
+  },
+  {
+    "id": 9,
+    "color": "Red",
+    "name": "MetalGreymon",
+    "materialValue": 14,
+    "costValue": 28
+  },
+  {
+    "id": 10,
+    "color": "Red",
+    "name": "Vermilimon",
+    "materialValue": 14,
+    "costValue": 27
+  },
+  {
+    "id": 11,
+    "color": "Red",
+    "name": "Meteormon",
+    "materialValue": 14,
+    "costValue": 26
+  },
+  {
+    "id": 12,
+    "color": "Red",
+    "name": "Exveemon",
+    "materialValue": 13,
+    "costValue": 25
+  },
+  {
+    "id": 13,
+    "color": "Red",
+    "name": "Aquilamon",
+    "materialValue": 12,
+    "costValue": 24
+  },
+  {
+    "id": 14,
+    "color": "Red",
+    "name": "Greymon",
+    "materialValue": 12,
+    "costValue": 23
+  },
+  {
+    "id": 15,
+    "color": "Red",
+    "name": "Apemon",
+    "materialValue": 11,
+    "costValue": 22
+  },
+  {
+    "id": 16,
+    "color": "Red",
+    "name": "Tyrannomon",
+    "materialValue": 11,
+    "costValue": 21
+  },
+  {
+    "id": 17,
+    "color": "Red",
+    "name": "Monochromon",
+    "materialValue": 10,
+    "costValue": 20
+  },
+  {
+    "id": 18,
+    "color": "Red",
+    "name": "Meramon",
+    "materialValue": 10,
+    "costValue": 19
+  },
+  {
+    "id": 19,
+    "color": "Red",
+    "name": "Centarumon",
+    "materialValue": 9,
+    "costValue": 18
+  },
+  {
+    "id": 20,
+    "color": "Red",
+    "name": "Birdramon",
+    "materialValue": 9,
+    "costValue": 17
+  },
+  {
+    "id": 21,
+    "color": "Red",
+    "name": "Tankmon",
+    "materialValue": 8,
+    "costValue": 16
+  },
+  {
+    "id": 22,
+    "color": "Red",
+    "name": "RedVegiemon",
+    "materialValue": 8,
+    "costValue": 15
+  },
+  {
+    "id": 23,
+    "color": "Red",
+    "name": "Piddomon",
+    "materialValue": 7,
+    "costValue": 14
+  },
+  {
+    "id": 24,
+    "color": "Red",
+    "name": "Akatorimon",
+    "materialValue": 7,
+    "costValue": 13
+  },
+  {
+    "id": 25,
+    "color": "Red",
+    "name": "BomberNanimon",
+    "materialValue": 6,
+    "costValue": 12
+  },
+  {
+    "id": 26,
+    "color": "Red",
+    "name": "Flarerizamon",
+    "materialValue": 6,
+    "costValue": 11
+  },
+  {
+    "id": 27,
+    "color": "Red",
+    "name": "Agumon",
+    "materialValue": 5,
+    "costValue": 10
+  },
+  {
+    "id": 28,
+    "color": "Red",
+    "name": "Solarmon",
+    "materialValue": 4,
+    "costValue": 9
+  },
+  {
+    "id": 29,
+    "color": "Red",
+    "name": "Biyomon",
+    "materialValue": 4,
+    "costValue": 8
+  },
+  {
+    "id": 30,
+    "color": "Red",
+    "name": "Muchomon",
+    "materialValue": 3,
+    "costValue": 7
+  },
+  {
+    "id": 31,
+    "color": "Red",
+    "name": "Candlemon",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 32,
+    "color": "Red",
+    "name": "D-Otamamon",
+    "materialValue": 2,
+    "costValue": 5
+  },
+  {
+    "id": 33,
+    "color": "Red",
+    "name": "Goburimon",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 34,
+    "color": "Blue",
+    "name": "Vikemon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 35,
+    "color": "Blue",
+    "name": "Omnimon II",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 36,
+    "color": "Blue",
+    "name": "MetalSeadramon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 37,
+    "color": "Blue",
+    "name": "MetalGarurumon",
+    "materialValue": 17,
+    "costValue": 35
+  },
+  {
+    "id": 38,
+    "color": "Blue",
+    "name": "MarineAngemon",
+    "materialValue": 17,
+    "costValue": 34
+  },
+  {
+    "id": 39,
+    "color": "Blue",
+    "name": "WereGarurumon",
+    "materialValue": 16,
+    "costValue": 33
+  },
+  {
+    "id": 40,
+    "color": "Blue",
+    "name": "Zudomon",
+    "materialValue": 16,
+    "costValue": 32
+  },
+  {
+    "id": 41,
+    "color": "Blue",
+    "name": "Panjyamon",
+    "materialValue": 15,
+    "costValue": 31
+  },
+  {
+    "id": 42,
+    "color": "Blue",
+    "name": "MegaSeadramon",
+    "materialValue": 15,
+    "costValue": 30
+  },
+  {
+    "id": 43,
+    "color": "Blue",
+    "name": "WaruSeadramon",
+    "materialValue": 14,
+    "costValue": 29
+  },
+  {
+    "id": 44,
+    "color": "Blue",
+    "name": "Brachiomon",
+    "materialValue": 14,
+    "costValue": 28
+  },
+  {
+    "id": 45,
+    "color": "Blue",
+    "name": "BlueMeramon",
+    "materialValue": 13,
+    "costValue": 27
+  },
+  {
+    "id": 46,
+    "color": "Blue",
+    "name": "Garurumon",
+    "materialValue": 13,
+    "costValue": 26
+  },
+  {
+    "id": 47,
+    "color": "Blue",
+    "name": "Ikkakumon",
+    "materialValue": 12,
+    "costValue": 25
+  },
+  {
+    "id": 48,
+    "color": "Blue",
+    "name": "Dolphmon",
+    "materialValue": 12,
+    "costValue": 24
+  },
+  {
+    "id": 49,
+    "color": "Blue",
+    "name": "Whamon",
+    "materialValue": 11,
+    "costValue": 23
+  },
+  {
+    "id": 50,
+    "color": "Blue",
+    "name": "Seadramon",
+    "materialValue": 11,
+    "costValue": 22
+  },
+  {
+    "id": 51,
+    "color": "Blue",
+    "name": "Gesomon",
+    "materialValue": 10,
+    "costValue": 21
+  },
+  {
+    "id": 52,
+    "color": "Blue",
+    "name": "Frigimon",
+    "materialValue": 10,
+    "costValue": 20
+  },
+  {
+    "id": 53,
+    "color": "Blue",
+    "name": "Gekomon",
+    "materialValue": 9,
+    "costValue": 19
+  },
+  {
+    "id": 54,
+    "color": "Blue",
+    "name": "Coelamon",
+    "materialValue": 9,
+    "costValue": 18
+  },
+  {
+    "id": 55,
+    "color": "Blue",
+    "name": "Mojyamon",
+    "materialValue": 8,
+    "costValue": 17
+  },
+  {
+    "id": 56,
+    "color": "Blue",
+    "name": "Shellmon",
+    "materialValue": 8,
+    "costValue": 16
+  },
+  {
+    "id": 57,
+    "color": "Blue",
+    "name": "Sorcerimon",
+    "materialValue": 7,
+    "costValue": 15
+  },
+  {
+    "id": 58,
+    "color": "Blue",
+    "name": "IceDevimon",
+    "materialValue": 7,
+    "costValue": 14
+  },
+  {
+    "id": 59,
+    "color": "Blue",
+    "name": "Hyogamon",
+    "materialValue": 6,
+    "costValue": 13
+  },
+  {
+    "id": 60,
+    "color": "Blue",
+    "name": "Icemon",
+    "materialValue": 6,
+    "costValue": 12
+  },
+  {
+    "id": 61,
+    "color": "Blue",
+    "name": "Gomamon",
+    "materialValue": 5,
+    "costValue": 11
+  },
+  {
+    "id": 62,
+    "color": "Blue",
+    "name": "Gabumon",
+    "materialValue": 5,
+    "costValue": 10
+  },
+  {
+    "id": 63,
+    "color": "Blue",
+    "name": "Betamon",
+    "materialValue": 4,
+    "costValue": 9
+  },
+  {
+    "id": 64,
+    "color": "Blue",
+    "name": "Penguinmon",
+    "materialValue": 4,
+    "costValue": 8
+  },
+  {
+    "id": 65,
+    "color": "Blue",
+    "name": "Gizamon",
+    "materialValue": 3,
+    "costValue": 7
+  },
+  {
+    "id": 66,
+    "color": "Blue",
+    "name": "Otamamon",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 67,
+    "color": "Blue",
+    "name": "SnowAgumon",
+    "materialValue": 2,
+    "costValue": 5
+  },
+  {
+    "id": 68,
+    "color": "Blue",
+    "name": "SnowGoburimon",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 69,
+    "color": "Green",
+    "name": "Valkyrimon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 70,
+    "color": "Green",
+    "name": "Seraphimon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 71,
+    "color": "Green",
+    "name": "Magnadramon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 72,
+    "color": "Green",
+    "name": "AeroVeedramon",
+    "materialValue": 17,
+    "costValue": 0
+  },
+  {
+    "id": 73,
+    "color": "Green",
+    "name": "Rosemon",
+    "materialValue": 17,
+    "costValue": 0
+  },
+  {
+    "id": 74,
+    "color": "Green",
+    "name": "HerculesKabuterimon",
+    "materialValue": 17,
+    "costValue": 32
+  },
+  {
+    "id": 75,
+    "color": "Green",
+    "name": "MagnaAngemon",
+    "materialValue": 16,
+    "costValue": 31
+  },
+  {
+    "id": 76,
+    "color": "Green",
+    "name": "Sylphymon",
+    "materialValue": 16,
+    "costValue": 30
+  },
+  {
+    "id": 77,
+    "color": "Green",
+    "name": "Angewomon",
+    "materialValue": 15,
+    "costValue": 29
+  },
+  {
+    "id": 78,
+    "color": "Green",
+    "name": "Lillymon",
+    "materialValue": 15,
+    "costValue": 28
+  },
+  {
+    "id": 79,
+    "color": "Green",
+    "name": "MegaKabuterimon",
+    "materialValue": 14,
+    "costValue": 27
+  },
+  {
+    "id": 80,
+    "color": "Green",
+    "name": "Piximon",
+    "materialValue": 14,
+    "costValue": 26
+  },
+  {
+    "id": 81,
+    "color": "Green",
+    "name": "Veedramon",
+    "materialValue": 13,
+    "costValue": 25
+  },
+  {
+    "id": 82,
+    "color": "Green",
+    "name": "Angemon",
+    "materialValue": 13,
+    "costValue": 24
+  },
+  {
+    "id": 83,
+    "color": "Green",
+    "name": "R-Gatomon",
+    "materialValue": 12,
+    "costValue": 23
+  },
+  {
+    "id": 84,
+    "color": "Green",
+    "name": "Togemon",
+    "materialValue": 11,
+    "costValue": 22
+  },
+  {
+    "id": 85,
+    "color": "Green",
+    "name": "Leomon",
+    "materialValue": 11,
+    "costValue": 21
+  },
+  {
+    "id": 86,
+    "color": "Green",
+    "name": "Kabuterimon",
+    "materialValue": 11,
+    "costValue": 20
+  },
+  {
+    "id": 87,
+    "color": "Green",
+    "name": "Airdramon",
+    "materialValue": 10,
+    "costValue": 19
+  },
+  {
+    "id": 88,
+    "color": "Green",
+    "name": "Unimon",
+    "materialValue": 10,
+    "costValue": 18
+  },
+  {
+    "id": 89,
+    "color": "Green",
+    "name": "Ninjamon",
+    "materialValue": 9,
+    "costValue": 17
+  },
+  {
+    "id": 90,
+    "color": "Green",
+    "name": "Kuwagamon",
+    "materialValue": 9,
+    "costValue": 16
+  },
+  {
+    "id": 91,
+    "color": "Green",
+    "name": "Drimogemon",
+    "materialValue": 8,
+    "costValue": 15
+  },
+  {
+    "id": 92,
+    "color": "Green",
+    "name": "Vegiemon",
+    "materialValue": 8,
+    "costValue": 14
+  },
+  {
+    "id": 93,
+    "color": "Green",
+    "name": "Kokatorimon",
+    "materialValue": 7,
+    "costValue": 13
+  },
+  {
+    "id": 94,
+    "color": "Green",
+    "name": "Yanmamon",
+    "materialValue": 7,
+    "costValue": 12
+  },
+  {
+    "id": 95,
+    "color": "Green",
+    "name": "J-Mojyamon",
+    "materialValue": 6,
+    "costValue": 11
+  },
+  {
+    "id": 96,
+    "color": "Green",
+    "name": "MoriShellmon",
+    "materialValue": 6,
+    "costValue": 10
+  },
+  {
+    "id": 97,
+    "color": "Green",
+    "name": "Tentomon",
+    "materialValue": 5,
+    "costValue": 9
+  },
+  {
+    "id": 98,
+    "color": "Green",
+    "name": "Palmon",
+    "materialValue": 4,
+    "costValue": 8
+  },
+  {
+    "id": 99,
+    "color": "Green",
+    "name": "Salamon",
+    "materialValue": 4,
+    "costValue": 7
+  },
+  {
+    "id": 100,
+    "color": "Green",
+    "name": "Elecmon",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 101,
+    "color": "Green",
+    "name": "Gotsumon",
+    "materialValue": 3,
+    "costValue": 5
+  },
+  {
+    "id": 102,
+    "color": "Green",
+    "name": "Kunemon",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 103,
+    "color": "Black",
+    "name": "Apokarimon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 104,
+    "color": "Black",
+    "name": "GranKuwagamon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 105,
+    "color": "Black",
+    "name": "Diaboromon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 106,
+    "color": "Black",
+    "name": "VenomMyotismon",
+    "materialValue": 17,
+    "costValue": 0
+  },
+  {
+    "id": 107,
+    "color": "Black",
+    "name": "Piedmon",
+    "materialValue": 18,
+    "costValue": 35
+  },
+  {
+    "id": 108,
+    "color": "Black",
+    "name": "Machinedramon",
+    "materialValue": 17,
+    "costValue": 34
+  },
+  {
+    "id": 109,
+    "color": "Black",
+    "name": "Infermon",
+    "materialValue": 17,
+    "costValue": 33
+  },
+  {
+    "id": 110,
+    "color": "Black",
+    "name": "LadyDevimon",
+    "materialValue": 16,
+    "costValue": 32
+  },
+  {
+    "id": 111,
+    "color": "Black",
+    "name": "Myotismon",
+    "materialValue": 16,
+    "costValue": 31
+  },
+  {
+    "id": 112,
+    "color": "Black",
+    "name": "Megadramon",
+    "materialValue": 15,
+    "costValue": 30
+  },
+  {
+    "id": 113,
+    "color": "Black",
+    "name": "SkullGreymon",
+    "materialValue": 15,
+    "costValue": 29
+  },
+  {
+    "id": 114,
+    "color": "Black",
+    "name": "Phantomon",
+    "materialValue": 14,
+    "costValue": 28
+  },
+  {
+    "id": 115,
+    "color": "Black",
+    "name": "WaruMonzaemon",
+    "materialValue": 19,
+    "costValue": 27
+  },
+  {
+    "id": 116,
+    "color": "Black",
+    "name": "Andromon",
+    "materialValue": 13,
+    "costValue": 26
+  },
+  {
+    "id": 117,
+    "color": "Black",
+    "name": "Stingmon",
+    "materialValue": 13,
+    "costValue": 25
+  },
+  {
+    "id": 118,
+    "color": "Black",
+    "name": "Wizardmon",
+    "materialValue": 12,
+    "costValue": 24
+  },
+  {
+    "id": 119,
+    "color": "Black",
+    "name": "Devidramon",
+    "materialValue": 12,
+    "costValue": 23
+  },
+  {
+    "id": 120,
+    "color": "Black",
+    "name": "Devimon",
+    "materialValue": 11,
+    "costValue": 22
+  },
+  {
+    "id": 121,
+    "color": "Black",
+    "name": "Tuskmon",
+    "materialValue": 11,
+    "costValue": 21
+  },
+  {
+    "id": 122,
+    "color": "Black",
+    "name": "Ogremon",
+    "materialValue": 10,
+    "costValue": 20
+  },
+  {
+    "id": 123,
+    "color": "Black",
+    "name": "Bakemon",
+    "materialValue": 10,
+    "costValue": 19
+  },
+  {
+    "id": 124,
+    "color": "Black",
+    "name": "Guardromon",
+    "materialValue": 9,
+    "costValue": 18
+  },
+  {
+    "id": 125,
+    "color": "Black",
+    "name": "Tekkamon",
+    "materialValue": 9,
+    "costValue": 17
+  },
+  {
+    "id": 126,
+    "color": "Black",
+    "name": "Gururumon",
+    "materialValue": 8,
+    "costValue": 16
+  },
+  {
+    "id": 127,
+    "color": "Black",
+    "name": "Soulmon",
+    "materialValue": 8,
+    "costValue": 15
+  },
+  {
+    "id": 128,
+    "color": "Black",
+    "name": "Fugamon",
+    "materialValue": 7,
+    "costValue": 14
+  },
+  {
+    "id": 129,
+    "color": "Black",
+    "name": "Saberdramon",
+    "materialValue": 7,
+    "costValue": 13
+  },
+  {
+    "id": 130,
+    "color": "Black",
+    "name": "Darkrizamon",
+    "materialValue": 6,
+    "costValue": 12
+  },
+  {
+    "id": 131,
+    "color": "Black",
+    "name": "Zassomon",
+    "materialValue": 6,
+    "costValue": 11
+  },
+  {
+    "id": 132,
+    "color": "Black",
+    "name": "DemiDevimon",
+    "materialValue": 5,
+    "costValue": 10
+  },
+  {
+    "id": 133,
+    "color": "Black",
+    "name": "BKGatomon",
+    "materialValue": 4,
+    "costValue": 9
+  },
+  {
+    "id": 134,
+    "color": "Black",
+    "name": "Kokuwamon",
+    "materialValue": 4,
+    "costValue": 8
+  },
+  {
+    "id": 135,
+    "color": "Black",
+    "name": "Tsukaimon",
+    "materialValue": 3,
+    "costValue": 7
+  },
+  {
+    "id": 136,
+    "color": "Black",
+    "name": "Dokunemon",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 137,
+    "color": "Black",
+    "name": "Aruraumon",
+    "materialValue": 2,
+    "costValue": 5
+  },
+  {
+    "id": 138,
+    "color": "Black",
+    "name": "Sharmamon",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 139,
+    "color": "Yellow",
+    "name": "Puppetmon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 140,
+    "color": "Yellow",
+    "name": "SuperStarmon",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 141,
+    "color": "Yellow",
+    "name": "MetalEtemon",
+    "materialValue": 17,
+    "costValue": 0
+  },
+  {
+    "id": 142,
+    "color": "Yellow",
+    "name": "Shakkoumon",
+    "materialValue": 17,
+    "costValue": 33
+  },
+  {
+    "id": 143,
+    "color": "Yellow",
+    "name": "Jijimon",
+    "materialValue": 16,
+    "costValue": 32
+  },
+  {
+    "id": 144,
+    "color": "Yellow",
+    "name": "Digitamamon",
+    "materialValue": 16,
+    "costValue": 31
+  },
+  {
+    "id": 145,
+    "color": "Yellow",
+    "name": "Vademon",
+    "materialValue": 15,
+    "costValue": 30
+  },
+  {
+    "id": 146,
+    "color": "Yellow",
+    "name": "Giromon",
+    "materialValue": 15,
+    "costValue": 29
+  },
+  {
+    "id": 147,
+    "color": "Yellow",
+    "name": "Monzaemon",
+    "materialValue": 14,
+    "costValue": 28
+  },
+  {
+    "id": 148,
+    "color": "Yellow",
+    "name": "MetalMamemon",
+    "materialValue": 14,
+    "costValue": 27
+  },
+  {
+    "id": 149,
+    "color": "Yellow",
+    "name": "Mamemon",
+    "materialValue": 13,
+    "costValue": 26
+  },
+  {
+    "id": 150,
+    "color": "Yellow",
+    "name": "Etemon",
+    "materialValue": 13,
+    "costValue": 25
+  },
+  {
+    "id": 151,
+    "color": "Yellow",
+    "name": "Ankylomon",
+    "materialValue": 12,
+    "costValue": 24
+  },
+  {
+    "id": 152,
+    "color": "Yellow",
+    "name": "Starmon",
+    "materialValue": 12,
+    "costValue": 23
+  },
+  {
+    "id": 153,
+    "color": "Yellow",
+    "name": "Thundermon",
+    "materialValue": 11,
+    "costValue": 22
+  },
+  {
+    "id": 154,
+    "color": "Yellow",
+    "name": "PlatinumSukamon",
+    "materialValue": 11,
+    "costValue": 21
+  },
+  {
+    "id": 155,
+    "color": "Yellow",
+    "name": "ShellNumemon",
+    "materialValue": 10,
+    "costValue": 20
+  },
+  {
+    "id": 156,
+    "color": "Yellow",
+    "name": "Nanimon",
+    "materialValue": 10,
+    "costValue": 19
+  },
+  {
+    "id": 157,
+    "color": "Yellow",
+    "name": "Numemon",
+    "materialValue": 9,
+    "costValue": 18
+  },
+  {
+    "id": 158,
+    "color": "Yellow",
+    "name": "Sukamon",
+    "materialValue": 9,
+    "costValue": 17
+  },
+  {
+    "id": 159,
+    "color": "Yellow",
+    "name": "Rockmon",
+    "materialValue": 8,
+    "costValue": 16
+  },
+  {
+    "id": 160,
+    "color": "Yellow",
+    "name": "Geremon",
+    "materialValue": 8,
+    "costValue": 15
+  },
+  {
+    "id": 161,
+    "color": "Yellow",
+    "name": "NiseDrimogemon",
+    "materialValue": 7,
+    "costValue": 14
+  },
+  {
+    "id": 162,
+    "color": "Yellow",
+    "name": "ShimaUnimon",
+    "materialValue": 7,
+    "costValue": 13
+  },
+  {
+    "id": 163,
+    "color": "Yellow",
+    "name": "MudFrigimon",
+    "materialValue": 6,
+    "costValue": 12
+  },
+  {
+    "id": 164,
+    "color": "Yellow",
+    "name": "SandYanmamon",
+    "materialValue": 6,
+    "costValue": 11
+  },
+  {
+    "id": 165,
+    "color": "Yellow",
+    "name": "L-ToyAgumon",
+    "materialValue": 5,
+    "costValue": 10
+  },
+  {
+    "id": 166,
+    "color": "Yellow",
+    "name": "Hagurumon",
+    "materialValue": 4,
+    "costValue": 9
+  },
+  {
+    "id": 167,
+    "color": "Yellow",
+    "name": "ToyAgumon",
+    "materialValue": 4,
+    "costValue": 8
+  },
+  {
+    "id": 168,
+    "color": "Yellow",
+    "name": "ClearAgumon",
+    "materialValue": 3,
+    "costValue": 7
+  },
+  {
+    "id": 169,
+    "color": "Yellow",
+    "name": "Vi-Elecmon",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 170,
+    "color": "Yellow",
+    "name": "Psychemon",
+    "materialValue": 2,
+    "costValue": 5
+  },
+  {
+    "id": 171,
+    "color": "Yellow",
+    "name": "ModokiBetamon",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 191,
+    "color": "Option",
+    "name": "Golden Banana",
+    "materialValue": 18,
+    "costValue": 35
+  },
+  {
+    "id": 192,
+    "color": "Option",
+    "name": "Devil's Chip",
+    "materialValue": 18,
+    "costValue": 34
+  },
+  {
+    "id": 193,
+    "color": "Option",
+    "name": "Whistle",
+    "materialValue": 18,
+    "costValue": 33
+  },
+  {
+    "id": 194,
+    "color": "Option",
+    "name": "Giga Hand",
+    "materialValue": 17,
+    "costValue": 32
+  },
+  {
+    "id": 195,
+    "color": "Option",
+    "name": "Metallic Banana",
+    "materialValue": 17,
+    "costValue": 30
+  },
+  {
+    "id": 196,
+    "color": "Option",
+    "name": "Shining Mane",
+    "materialValue": 17,
+    "costValue": 30
+  },
+  {
+    "id": 197,
+    "color": "Option",
+    "name": "Mega Rec. Floppy",
+    "materialValue": 16,
+    "costValue": 29
+  },
+  {
+    "id": 198,
+    "color": "Option",
+    "name": "Mega Attack Chip",
+    "materialValue": 16,
+    "costValue": 28
+  },
+  {
+    "id": 199,
+    "color": "Option",
+    "name": "Dark Lord Cape",
+    "materialValue": 16,
+    "costValue": 27
+  },
+  {
+    "id": 200,
+    "color": "Option",
+    "name": "Fake Sevens",
+    "materialValue": 15,
+    "costValue": 0
+  },
+  {
+    "id": 201,
+    "color": "Option",
+    "name": "Net Worm",
+    "materialValue": 15,
+    "costValue": 25
+  },
+  {
+    "id": 202,
+    "color": "Option",
+    "name": "Missile Pod",
+    "materialValue": 15,
+    "costValue": 24
+  },
+  {
+    "id": 203,
+    "color": "Option",
+    "name": "Shogun's Order",
+    "materialValue": 14,
+    "costValue": 23
+  },
+  {
+    "id": 204,
+    "color": "Option",
+    "name": "Beetle Diamond",
+    "materialValue": 14,
+    "costValue": 22
+  },
+  {
+    "id": 205,
+    "color": "Option",
+    "name": "Dark Bone",
+    "materialValue": 14,
+    "costValue": 21
+  },
+  {
+    "id": 206,
+    "color": "Option",
+    "name": "Red Digivice",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 207,
+    "color": "Option",
+    "name": "Blue Digivice",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 208,
+    "color": "Option",
+    "name": "Green Digivice",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 209,
+    "color": "Option",
+    "name": "Black Digivice",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 210,
+    "color": "Option",
+    "name": "Yellow Digivice",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 211,
+    "color": "Option",
+    "name": "Pink Digivice",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 212,
+    "color": "Option",
+    "name": "Another Dimension",
+    "materialValue": 12,
+    "costValue": 19
+  },
+  {
+    "id": 213,
+    "color": "Option",
+    "name": "UnInstall",
+    "materialValue": 12,
+    "costValue": 18
+  },
+  {
+    "id": 214,
+    "color": "Option",
+    "name": "Evil Program",
+    "materialValue": 12,
+    "costValue": 17
+  },
+  {
+    "id": 215,
+    "color": "Option",
+    "name": "Coliseum",
+    "materialValue": 12,
+    "costValue": 16
+  },
+  {
+    "id": 216,
+    "color": "Option",
+    "name": "Fire Altar",
+    "materialValue": 11,
+    "costValue": 15
+  },
+  {
+    "id": 217,
+    "color": "Option",
+    "name": "Ice Altar",
+    "materialValue": 11,
+    "costValue": 15
+  },
+  {
+    "id": 218,
+    "color": "Option",
+    "name": "Nature Altar",
+    "materialValue": 11,
+    "costValue": 15
+  },
+  {
+    "id": 219,
+    "color": "Option",
+    "name": "Darkness Altar",
+    "materialValue": 11,
+    "costValue": 15
+  },
+  {
+    "id": 220,
+    "color": "Option",
+    "name": "Rare Altar",
+    "materialValue": 11,
+    "costValue": 15
+  },
+  {
+    "id": 221,
+    "color": "Option",
+    "name": "Sup. Rec. Floppy",
+    "materialValue": 10,
+    "costValue": 14
+  },
+  {
+    "id": 222,
+    "color": "Option",
+    "name": "Mega Def. Disk Circle",
+    "materialValue": 10,
+    "costValue": 13
+  },
+  {
+    "id": 223,
+    "color": "Option",
+    "name": "Mega Def. Disk Triangle",
+    "materialValue": 10,
+    "costValue": 13
+  },
+  {
+    "id": 224,
+    "color": "Option",
+    "name": "Mega Def. Disk Cross",
+    "materialValue": 10,
+    "costValue": 13
+  },
+  {
+    "id": 225,
+    "color": "Option",
+    "name": "Heap of Junk",
+    "materialValue": 10,
+    "costValue": 12
+  },
+  {
+    "id": 226,
+    "color": "Option",
+    "name": "Beam Gun",
+    "materialValue": 9,
+    "costValue": 12
+  },
+  {
+    "id": 227,
+    "color": "Option",
+    "name": "Chain Saw",
+    "materialValue": 9,
+    "costValue": 12
+  },
+  {
+    "id": 228,
+    "color": "Option",
+    "name": "Metal Parts",
+    "materialValue": 9,
+    "costValue": 12
+  },
+  {
+    "id": 229,
+    "color": "Option",
+    "name": "Metal Armor",
+    "materialValue": 9,
+    "costValue": 12
+  },
+  {
+    "id": 230,
+    "color": "Option",
+    "name": "Mega Hand",
+    "materialValue": 9,
+    "costValue": 12
+  },
+  {
+    "id": 231,
+    "color": "Option",
+    "name": "Level Balancer",
+    "materialValue": 8,
+    "costValue": 11
+  },
+  {
+    "id": 232,
+    "color": "Option",
+    "name": "Level Manager",
+    "materialValue": 8,
+    "costValue": 11
+  },
+  {
+    "id": 233,
+    "color": "Option",
+    "name": "Level Booster",
+    "materialValue": 8,
+    "costValue": 11
+  },
+  {
+    "id": 234,
+    "color": "Option",
+    "name": "Armor Clash",
+    "materialValue": 8,
+    "costValue": 11
+  },
+  {
+    "id": 235,
+    "color": "Option",
+    "name": "Silver Ball",
+    "materialValue": 8,
+    "costValue": 11
+  },
+  {
+    "id": 236,
+    "color": "Option",
+    "name": "Coral Charm",
+    "materialValue": 7,
+    "costValue": 10
+  },
+  {
+    "id": 237,
+    "color": "Option",
+    "name": "Patch of Love",
+    "materialValue": 7,
+    "costValue": 10
+  },
+  {
+    "id": 238,
+    "color": "Option",
+    "name": "Mystery Egg",
+    "materialValue": 7,
+    "costValue": 10
+  },
+  {
+    "id": 239,
+    "color": "Option",
+    "name": "Miracle Ruby",
+    "materialValue": 7,
+    "costValue": 10
+  },
+  {
+    "id": 240,
+    "color": "Option",
+    "name": "Cyber Parts",
+    "materialValue": 6,
+    "costValue": 10
+  },
+  {
+    "id": 241,
+    "color": "Option",
+    "name": "Liquid Crystal",
+    "materialValue": 6,
+    "costValue": 10
+  },
+  {
+    "id": 242,
+    "color": "Option",
+    "name": "Deluxe Mushroom",
+    "materialValue": 6,
+    "costValue": 9
+  },
+  {
+    "id": 243,
+    "color": "Option",
+    "name": "Lucky Mushroom",
+    "materialValue": 6,
+    "costValue": 9
+  },
+  {
+    "id": 244,
+    "color": "Option",
+    "name": "Premium Steak",
+    "materialValue": 6,
+    "costValue": 9
+  },
+  {
+    "id": 245,
+    "color": "Option",
+    "name": "Short Lance",
+    "materialValue": 6,
+    "costValue": 9
+  },
+  {
+    "id": 246,
+    "color": "Option",
+    "name": "Med. Rec. Floppy",
+    "materialValue": 5,
+    "costValue": 8
+  },
+  {
+    "id": 247,
+    "color": "Option",
+    "name": "Digimon Analyzer",
+    "materialValue": 5,
+    "costValue": 8
+  },
+  {
+    "id": 248,
+    "color": "Option",
+    "name": "Training Manual",
+    "materialValue": 5,
+    "costValue": 8
+  },
+  {
+    "id": 249,
+    "color": "Option",
+    "name": "Circle Hitter",
+    "materialValue": 5,
+    "costValue": 8
+  },
+  {
+    "id": 250,
+    "color": "Option",
+    "name": "Triangle Hitter",
+    "materialValue": 5,
+    "costValue": 8
+  },
+  {
+    "id": 251,
+    "color": "Option",
+    "name": "Cross Hitter",
+    "materialValue": 5,
+    "costValue": 8
+  },
+  {
+    "id": 252,
+    "color": "Option",
+    "name": "Suka's Curse",
+    "materialValue": 4,
+    "costValue": 7
+  },
+  {
+    "id": 253,
+    "color": "Option",
+    "name": "Cherrymon's mist",
+    "materialValue": 17,
+    "costValue": 32
+  },
+  {
+    "id": 254,
+    "color": "Option",
+    "name": "Hacking",
+    "materialValue": 13,
+    "costValue": 20
+  },
+  {
+    "id": 255,
+    "color": "Option",
+    "name": "Digimon Grave",
+    "materialValue": 4,
+    "costValue": 7
+  },
+  {
+    "id": 256,
+    "color": "Option",
+    "name": "Data Copy",
+    "materialValue": 4,
+    "costValue": 7
+  },
+  {
+    "id": 257,
+    "color": "Option",
+    "name": "Partner Finder",
+    "materialValue": 4,
+    "costValue": 7
+  },
+  {
+    "id": 258,
+    "color": "Option",
+    "name": "Fire Spot",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 259,
+    "color": "Option",
+    "name": "Ice Crystal",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 260,
+    "color": "Option",
+    "name": "Earth Charm",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 261,
+    "color": "Option",
+    "name": "Black Gear",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 262,
+    "color": "Option",
+    "name": "Stuffed Animal",
+    "materialValue": 3,
+    "costValue": 6
+  },
+  {
+    "id": 263,
+    "color": "Option",
+    "name": "Disrupt Ray",
+    "materialValue": 2,
+    "costValue": 5
+  },
+  {
+    "id": 264,
+    "color": "Option",
+    "name": "Attack Chip",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 265,
+    "color": "Option",
+    "name": "High Speed Disk",
+    "materialValue": 8,
+    "costValue": 14
+  },
+  {
+    "id": 266,
+    "color": "Option",
+    "name": "Recovery Floppy",
+    "materialValue": 2,
+    "costValue": 4
+  },
+  {
+    "id": 267,
+    "color": "Option",
+    "name": "Attack Disk Circle",
+    "materialValue": 1,
+    "costValue": 3
+  },
+  {
+    "id": 268,
+    "color": "Option",
+    "name": "Attack Disk Triangle",
+    "materialValue": 1,
+    "costValue": 3
+  },
+  {
+    "id": 269,
+    "color": "Option",
+    "name": "Attack Disk Cross",
+    "materialValue": 1,
+    "costValue": 3
+  },
+  {
+    "id": 270,
+    "color": "Option",
+    "name": "Defense Disk Circle",
+    "materialValue": 1,
+    "costValue": 2
+  },
+  {
+    "id": 271,
+    "color": "Option",
+    "name": "Defense Disk Triangle",
+    "materialValue": 1,
+    "costValue": 2
+  },
+  {
+    "id": 272,
+    "color": "Option",
+    "name": "Defense Disk Cross",
+    "materialValue": 1,
+    "costValue": 2
+  },
+  {
+    "id": 273,
+    "color": "Option",
+    "name": "Digi-Garnet",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 274,
+    "color": "Option",
+    "name": "Digi-Amethyst",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 275,
+    "color": "Option",
+    "name": "Digi-Aquamarine",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 276,
+    "color": "Option",
+    "name": "Digi-Diamond",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 277,
+    "color": "Option",
+    "name": "Digi-Emerald",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 278,
+    "color": "Option",
+    "name": "Digi-Pearl",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 279,
+    "color": "Option",
+    "name": "Digi-Ruby",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 280,
+    "color": "Option",
+    "name": "Digi-Sardnyx",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 281,
+    "color": "Option",
+    "name": "Digi-Saphire",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 282,
+    "color": "Option",
+    "name": "Digi-Opal",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 283,
+    "color": "Option",
+    "name": "Digi-Topaz",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 284,
+    "color": "Option",
+    "name": "Digi-Turquoise",
+    "materialValue": 18,
+    "costValue": 0
+  },
+  {
+    "id": 294,
+    "color": "Option",
+    "name": "ArmorCrush Digivolve",
+    "materialValue": 14,
+    "costValue": 21
+  },
+  {
+    "id": 295,
+    "color": "Option",
+    "name": "Special digivolve",
+    "materialValue": 12,
+    "costValue": 16
+  },
+  {
+    "id": 296,
+    "color": "Option",
+    "name": "Mutant digivolve",
+    "materialValue": 10,
+    "costValue": 16
+  },
+  {
+    "id": 297,
+    "color": "Option",
+    "name": "Warp digivolve",
+    "materialValue": 8,
+    "costValue": 14
+  },
+  {
+    "id": 298,
+    "color": "Option",
+    "name": "De-Armor Digivolve",
+    "materialValue": 4,
+    "costValue": 14
+  },
+  {
+    "id": 299,
+    "color": "Option",
+    "name": "Speed-digivolve",
+    "materialValue": 6,
+    "costValue": 14
+  },
+  {
+    "id": 300,
+    "color": "Option",
+    "name": "Digi-devolve",
+    "materialValue": 2,
+    "costValue": 5
+  }
+]
