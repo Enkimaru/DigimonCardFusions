@@ -9,7 +9,7 @@ const colorMatrix =[
 
 const colorList = ["red","blue","green","black","yellow","option"];
 
-
+console.log("ok");
 
 function colorFusion (card1, card2){
 	card1Color = colorList.indexOf(card1.color);
@@ -26,3 +26,4 @@ function cardFusion (card1, card2){
 
 	return sameColorCards.filter((card) => card.cost === resultCost);
 }
+
