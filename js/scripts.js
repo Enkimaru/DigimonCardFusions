@@ -10,6 +10,9 @@ const colorMatrix =[
 const colorList = ["red","blue","green","black","yellow","option"];
 
 console.log("ok");
+fetch('https://raw.githubusercontent.com/Enkimaru/DigimonCardFusions/color-fusion/js/cardList.json')
+    .then((response) => response.json())
+    .then((json) => console.log(json));
 
 function colorFusion (card1, card2){
 	card1Color = colorList.indexOf(card1.color);
