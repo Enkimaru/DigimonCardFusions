@@ -1,1 +1,32 @@
-Hi!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Digimon Card Fusion Helper</title>
+    <link rel="stylesheet" href=".css/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <h1>Digimon Card Fusion Helper</h1>
+        <select name="card" id="firstCard" onchange="fuseCards()">
+        </select>
+
+        <select name="card" id="secondCard" onchange="fuseCards()">
+        </select>
+
+        
+        <br><br>
+        <span>Possible Results: <div id="fusionResult"></div></span>
+
+    </main>
+    <script src="js/fetchAPI.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
