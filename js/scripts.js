@@ -11,6 +11,8 @@ const colorList = [{"color": "Red", "maxValue": 35},
  {"color":"Black", "maxValue": 35}, {"color":"Yellow", "maxValue": 33}, 
  {"color":"Option", "maxValue": 35}];
 
+ const specialFusionList = [1, 4]
+
 const resultDiv = document.getElementById('fusionResult');
 const firstCardList = document.getElementById('firstCard');
 const secondCardList = document.getElementById('secondCard');
@@ -18,10 +20,11 @@ const secondCardList = document.getElementById('secondCard');
 var cardList = {};
 
 async function getCardList() {
-    const cardList = await fetch('https://raw.githubusercontent.com/Enkimaru/DigimonCardFusions/color-fusion/js/cardList.json')
+    const cardList = await fetch('https://raw.githubusercontent.com/Enkimaru/DigimonCardFusions/color-fusion/db/cardList.json')
                    .then((response) => response.json())
     return cardList;
 }
+
 
 async function buildPage() {
     cardList = await getCardList();
