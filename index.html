@@ -6,29 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Digimon Card Fusion Helper</title>
-    <link rel="stylesheet" href=".css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <main>
-        <h1>Digimon Card Fusion Helper</h1>
-        <select name="card" id="firstCard" onchange="fuseCards()">
-        </select>
+        <div class="container" style="margin-top: 10px;">
+            <h2>Digimon Digital Card Battle Fusion Helper</h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs mb-2">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#fuseMenu">Fuse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#availableCardsMenu">Available Cards</a>
+                </li>
+            </ul>
 
-        <select name="card" id="secondCard" onchange="fuseCards()">
-        </select>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active fade show" id="fuseMenu">
+                    <h3>Fuse Cards</h3>
 
-        
-        <br><br>
-        <span>Possible Results: <div id="fusionResult"></div></span>
-        <br>
-        <div>Available Cards:</div><br>
-        <div id="availableCardList"></div>
+                    <select name="card" id="firstCard" onchange="fuseCards()">
+                    </select>
+
+                    <select name="card" id="secondCard" onchange="fuseCards()">
+                    </select>
+
+
+                    <br><br>
+                    <span>Possible Results: <div id="fusionResult"></div></span>
+                </div>
+                <div class="tab-pane container fade" id="availableCardsMenu">
+                    <h3>Choose your cards</h3>
+                    <p>Cards chosen here will appear as material on fusion list.</p>
+                    <button type="button" class="btn btn-light btn-sm" onclick="addAllAvailableCards()">Add All</button>
+                    <button type="button" class="btn btn-light btn-sm" onclick="removeAllAvailableCards()">Remove
+                        All</button>
+                    <div id="availableCardList"></div>
+                </div>
+            </div>
     </main>
 
 </body>
-    <script src="js/fetchAPI.js"></script>
-    <script src="js/constants.js"></script>
-    <script src="js/main.js"></script>  
+<script src="js/fetchAPI.js"></script>
+<script src="js/constants.js"></script>
+<script src="js/main.js"></script>
+
 </html>

@@ -115,9 +115,24 @@ function buildSelectableCardList(list) {
 
 function buildAvailableCardList(list) {
   availableCardList.innerHTML = "";
+  var lastColor = "";
 
   list.forEach((card) => {
-    availableCardList.innerHTML += `<input type="checkbox" name="availableCard" value="${card.id}" checked><span>${card.id} - ${card.name}</span><br>`;
+    const cardColor = card.color;
+    if (lastColor != cardColor) {
+      availableCardList.innerHTML += ` <div class="bg-${cardColor.toLowerCase()} bg-opacity-25 
+       d-flex align-items-center highlight-toolbar ps-3 pe-2 py-1 mt-2">
+                              <div class="col">${cardColor} Cards</div>
+        </div>`;
+      lastColor = cardColor;
+    }
+    availableCardList.innerHTML += `<input type="checkbox" class="btn-check" name="availableCard" id="cardNum${
+      card.id
+    }" 
+        value="${card.id}" autocomplete="off" checked>
+        <label class="btn btn-outline-${cardColor.toLowerCase()} mt-2" for="cardNum${
+      card.id
+    }">${card.id} - ${card.name}</label>`;
   });
   const availableCards = document.getElementsByName("availableCard");
   availableCards.forEach((card) => (card.onclick = updateAvailableCard));
@@ -145,5 +160,21 @@ function removeCardFromCurrentCardList(selectedCard) {
     (card) => card.id != selectedCard.id
   );
   buildSelectableCardList(currentCardList);
+  fuseCards();
+}
+
+function removeAllAvailableCards() {
+  currentCardList = [];
+  buildSelectableCardList(currentCardList);
+  resultDiv.innerHTML = "";
+  const availableCards = document.getElementsByName("availableCard");
+  availableCards.forEach((card) => (card.checked = false));
+}
+
+function addAllAvailableCards() {
+  currentCardList = JSON.parse(JSON.stringify(originalCardList));
+  buildSelectableCardList(currentCardList);
+  const availableCards = document.getElementsByName("availableCard");
+  availableCards.forEach((card) => (card.checked = true));
   fuseCards();
 }
