@@ -33,7 +33,7 @@ function fuseCards() {
   resultDiv.innerHTML = "";
 
   cardFusionResult.forEach((card) => {
-    resultDiv.innerHTML += `<img src="./db/cardImages/${card.id}.png">`;
+    resultDiv.innerHTML += `<img src="db/cardImages/${card.id}.png">`;
     resultDiv.innerHTML += `${card.id} - ${card.name} \n`;
   });
 }
