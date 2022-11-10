@@ -33,7 +33,7 @@ function fuseCards() {
   resultDiv.innerHTML = "";
 
   cardFusionResult.forEach((card) => {
-    resultDiv.innerHTML += `<img src="./db/cardImages/${card.id}.png">`;
+    resultDiv.innerHTML += `<img src="db/cardImages/${card.id}.png">`;
     resultDiv.innerHTML += `${card.id} - ${card.name} \n`;
   });
 }
@@ -184,6 +184,6 @@ function addAllAvailableCards() {
 
 function updateCard(element) {
   const cardImage = document.getElementById(`${element.id}Image`);
-  cardImage.src = `/db/cardImages/${element.value}.png`;
+  cardImage.src = `db/cardImages/${element.value}.png`;
   fuseCards();
 }
