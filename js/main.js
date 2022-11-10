@@ -4,22 +4,21 @@ const colorList = constants.getColorList();
 const resultDiv = document.getElementById("fusionResult");
 const firstCardList = document.getElementById("firstCard");
 const secondCardList = document.getElementById("secondCard");
+const availableCardList = document.getElementById("availableCardList");
 
 var originalCardList = {};
+var currentCardList = {};
 var specialFusionsList = {};
 
 buildPage();
 
 async function buildPage() {
   originalCardList = await fetchAPI.getCardList();
+  currentCardList = JSON.parse(JSON.stringify(originalCardList));
   specialFusionsList = await fetchAPI.getSpecialFusionList();
 
-  originalCardList.forEach((card) => {
-    const cardName = `${card.id} - ${card.name}`;
-    firstCardList.appendChild(new Option(cardName, card.id));
-    secondCardList.appendChild(new Option(cardName, card.id));
-  });
-
+  buildSelectableCardList(currentCardList);
+  buildAvailableCardList(currentCardList);
   fuseCards();
 }
 
@@ -45,17 +44,17 @@ function colorFusion(firstCard, secondCard) {
 }
 
 function cardFusion(firstCard, secondCard) {
+  let specialFusion = checkForSpecialFusion(firstCard, secondCard);
+  if (specialFusion.length > 0) {
+    return new Array(getCard(specialFusion[0].resultCard));
+  }
+
   const newColor = colorFusion(firstCard, secondCard);
   let resultCost = firstCard.materialValue + secondCard.materialValue;
   const maxValue = findColorMaxValue(newColor);
 
   if (resultCost > maxValue) {
     resultCost = maxValue;
-  }
-
-  let specialFusion = checkForSpecialFusion(firstCard, secondCard);
-  if (specialFusion.length > 0) {
-    return new Array(getCard(specialFusion[0].resultCard));
   }
 
   let cardListResult = originalCardList.filter(
@@ -68,9 +67,7 @@ function cardFusion(firstCard, secondCard) {
 }
 
 function findColorIndex(card) {
-  return colorList.findIndex(function (item) {
-    return item.color === card.color;
-  });
+  return colorList.findIndex((item) => item.color === card.color);
 }
 
 function findColorMaxValue(colorName) {
@@ -103,4 +100,50 @@ function checkForSpecialFusion(firstCard, secondCard) {
         fusion.secondCard === secondCard.id) ||
       (fusion.firstCard === secondCard.id && fusion.secondCard === firstCard.id)
   );
+}
+
+function buildSelectableCardList(list) {
+  firstCardList.innerHTML = "";
+  secondCardList.innerHTML = "";
+
+  list.forEach((card) => {
+    const cardName = `${card.id} - ${card.name}`;
+    firstCardList.appendChild(new Option(cardName, card.id));
+    secondCardList.appendChild(new Option(cardName, card.id));
+  });
+}
+
+function buildAvailableCardList(list) {
+  availableCardList.innerHTML = "";
+
+  list.forEach((card) => {
+    availableCardList.innerHTML += `<input type="checkbox" name="availableCard" value="${card.id}" checked><span>${card.id} - ${card.name}</span><br>`;
+  });
+  const availableCards = document.getElementsByName("availableCard");
+  availableCards.forEach((card) => (card.onclick = updateAvailableCard));
+}
+
+function updateAvailableCard(e) {
+  const card = getCard(this.value);
+
+  if (this.checked) {
+    addCardToCurrentCardList(card);
+  } else {
+    removeCardFromCurrentCardList(card);
+  }
+}
+
+function addCardToCurrentCardList(selectedCard) {
+  currentCardList.push(selectedCard);
+  currentCardList = currentCardList.sort((a, b) => (a.id > b.id ? 1 : -1));
+  buildSelectableCardList(currentCardList);
+  fuseCards();
+}
+
+function removeCardFromCurrentCardList(selectedCard) {
+  currentCardList = currentCardList.filter(
+    (card) => card.id != selectedCard.id
+  );
+  buildSelectableCardList(currentCardList);
+  fuseCards();
 }

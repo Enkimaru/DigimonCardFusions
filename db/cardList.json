@@ -37,7 +37,7 @@
   {
     "id": 5,
     "color": "Red",
-    "name": "Gigidramon",
+    "name": "Gigadramon",
     "materialValue": 16,
     "costValue": 32
   },
@@ -1640,7 +1640,7 @@
   {
     "id": 253,
     "color": "Option",
-    "name": "Cherrymon's mist",
+    "name": "Cherrymon's Mist",
     "materialValue": 17,
     "costValue": 32
   },
