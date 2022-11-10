@@ -38,10 +38,12 @@
                 <div class="tab-pane container active fade show" id="fuseMenu">
                     <h3>Fuse Cards</h3>
 
-                    <select name="card" id="firstCard" onchange="fuseCards()">
+                    <div><img id="firstCardImage" src="/db/cardImages/0.png"></div>
+                    <select name="card" id="firstCard" onchange="updateCard(this)">
                     </select>
 
-                    <select name="card" id="secondCard" onchange="fuseCards()">
+                    <div><img id="secondCardImage" src="/db/cardImages/0.png"></div>
+                    <select name="card" id="secondCard" onchange="updateCard(this)">
                     </select>
 
 

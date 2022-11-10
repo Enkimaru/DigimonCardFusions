@@ -5,6 +5,8 @@ const resultDiv = document.getElementById("fusionResult");
 const firstCardList = document.getElementById("firstCard");
 const secondCardList = document.getElementById("secondCard");
 const availableCardList = document.getElementById("availableCardList");
+const firstCardImage = document.getElementById("firstCardImage");
+const secondCardImage = document.getElementById("secondCardImage");
 
 var originalCardList = {};
 var currentCardList = {};
@@ -28,10 +30,11 @@ function fuseCards() {
 
   const cardFusionResult = cardFusion(firstCard, secondCard);
 
-  resultDiv.innerText = "";
+  resultDiv.innerHTML = "";
 
   cardFusionResult.forEach((card) => {
-    resultDiv.innerText += `${card.id} - ${card.name} \n`;
+    resultDiv.innerHTML += `<img src="/db/cardImages/${card.id}.png">`;
+    resultDiv.innerHTML += `${card.id} - ${card.name} \n`;
   });
 }
 
@@ -176,5 +179,11 @@ function addAllAvailableCards() {
   buildSelectableCardList(currentCardList);
   const availableCards = document.getElementsByName("availableCard");
   availableCards.forEach((card) => (card.checked = true));
+  fuseCards();
+}
+
+function updateCard(element) {
+  const cardImage = document.getElementById(`${element.id}Image`);
+  cardImage.src = `/db/cardImages/${element.value}.png`;
   fuseCards();
 }
