@@ -184,6 +184,6 @@ function addAllAvailableCards() {
 
 function updateCard(element) {
   const cardImage = document.getElementById(`${element.id}Image`);
-  cardImage.src = `/db/cardImages/${element.value}.png`;
+  cardImage.src = `db/cardImages/${element.value}.png`;
   fuseCards();
 }
