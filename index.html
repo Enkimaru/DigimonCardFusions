@@ -18,33 +18,46 @@
 
 <body>
     <main>
-        <div class="container" style="margin-top: 10px;">
+        <div class="container mt-10"">
             <h2>Digimon Digital Card Battle Fusion Helper</h2>
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs mb-2">
-                <li class="nav-item">
-                    <a class="nav-link active" data-bs-toggle="tab" href="#fuseMenu">Fuse</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#availableCardsMenu">Available Cards</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#about">About</a>
-                </li>
+            <ul class=" nav nav-tabs mb-2">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#fuseMenu">Fuse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#availableCardsMenu">Available Cards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#about">About</a>
+            </li>
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
                 <div class="tab-pane container active fade show" id="fuseMenu">
                     <h3>Fuse Cards</h3>
+                    <div class="row">
+                        <div class="product-holder col-6"><img name="cardFrame" src="assets/card-frame.png">
+                            <img id="firstCardImage" class="left-image" src="db/cardImages/0.png">
+                        </div>
+                        <div class="product-holder col-6 d-flex flex-row-reverse"><img name="cardFrame" src="assets/card-frame.png">
+                            <img id="secondCardImage" class="right-image" src="db/cardImages/0.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <select name="card" id="firstCard" class="form-select bg-light" onchange="updateCard(this)">
+                            </select>
+                        </div>
+                        <div class="col"></div>
 
-                    <div><img id="firstCardImage" src="db/cardImages/0.png"></div>
-                    <select name="card" id="firstCard" onchange="updateCard(this)">
-                    </select>
-
-                    <div><img id="secondCardImage" src="db/cardImages/0.png"></div>
-                    <select name="card" id="secondCard" onchange="updateCard(this)">
-                    </select>
+                        <div class="col">
+                            <select name="card" id="secondCard" class="form-select bg-light"
+                                onchange="updateCard(this)">
+                            </select>
+                        </div>
+                    </div>
 
 
                     <br><br>
@@ -60,7 +73,9 @@
                 </div>
                 <div class="tab-pane container fade" id="about">
                     <h3>About</h3>
-                    <p>Card fusion list based on Ephraim225 <a href="https://gamefaqs.gamespot.com/ps/526754-digimon-digital-card-battle/faqs/75834/basic-fusion" target="_blank">FAQ</a>!</p>
+                    <p>Card fusion list based on Ephraim225 <a
+                            href="https://gamefaqs.gamespot.com/ps/526754-digimon-digital-card-battle/faqs/75834/basic-fusion"
+                            target="_blank">FAQ</a>!</p>
                 </div>
             </div>
     </main>
