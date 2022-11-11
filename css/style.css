@@ -1,4 +1,4 @@
-.product-holder {
+.card-holder {
     position: relative;
     display: block;
 }
@@ -6,7 +6,6 @@
 .left-image {
     position: absolute;
     margin-top: 20px;
-    margin-left: -73px;
 }
 
 .right-image {

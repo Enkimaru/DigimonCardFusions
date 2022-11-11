@@ -36,23 +36,28 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div class="tab-pane container active fade show" id="fuseMenu">
-                    <h3>Fuse Cards</h3>
+                    <div class="justify-content-center d-flex">
+                        <h3>Fuse Cards</h3>
+                    </div>
                     <div class="row">
-                        <div class="product-holder col-6"><img name="cardFrame" src="assets/card-frame.png">
+                        <div class="card-holder justify-content-center col-4 d-flex"><img name="cardFrame"
+                                src="assets/card-frame.png">
                             <img id="firstCardImage" class="left-image" src="db/cardImages/0.png">
                         </div>
-                        <div class="product-holder col-6 d-flex flex-row-reverse"><img name="cardFrame" src="assets/card-frame.png">
+                        <div class="col-4"></div>
+                        <div class="card-holder justify-content-center col-4 d-flex flex-row-reverse"><img
+                                name="cardFrame" src="assets/card-frame.png">
                             <img id="secondCardImage" class="right-image" src="db/cardImages/0.png">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col d-flex mt-2">
                             <select name="card" id="firstCard" class="form-select bg-light" onchange="updateCard(this)">
                             </select>
                         </div>
                         <div class="col"></div>
 
-                        <div class="col">
+                        <div class="col d-flex mt-2 flex-row-reverse">
                             <select name="card" id="secondCard" class="form-select bg-light"
                                 onchange="updateCard(this)">
                             </select>
@@ -60,8 +65,11 @@
                     </div>
 
 
-                    <br><br>
-                    <span>Possible Results: <div id="fusionResult"></div></span>
+
+                    <div class="mt-5 justify-content-center d-flex">
+                        <h6>Possible Results:</h6>
+                    </div>
+                    <div id="fusionResult" class="row"></div>
                 </div>
                 <div class="tab-pane container fade" id="availableCardsMenu">
                     <h3>Choose your cards</h3>
